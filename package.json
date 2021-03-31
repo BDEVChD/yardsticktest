@@ -8,6 +8,11 @@
     "start": "node server.js",
     "test": "node ace test"
   },
+  
+    "engines": {
+      "node": "15.10.0"
+    },
+  
   "keywords": [
     "adonisjs",
     "adonis-app"
@@ -30,6 +35,6 @@
   "devDependencies": {},
   "autoload": {
     "App": "./app"
-  }, 
-  "engines": "15.10.0"
+  } 
+ 
 }
